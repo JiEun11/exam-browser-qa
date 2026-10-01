@@ -1,0 +1,16 @@
+{
+  "name": "exam-browser-qa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser QA skill with fetch/XHR error simulation",
+  "scripts": {
+    "test": "node --test tests/interception.test.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "axios": "1.16.1",
+    "jest-environment-jsdom": "27.5.1"
+  }
+}
